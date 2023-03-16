@@ -1,0 +1,237 @@
+:root {
+  font-size: 62.5%;
+}
+
+@include fontFace("Nunito", "../fonts/nunito-v23-latin-regular", 400);
+@include fontFace("Nunito", "../fonts/nunito-v23-latin-italic", 400, italic);
+@include fontFace("Nunito", "../fonts/nunito-v23-latin-500", 500);
+@include fontFace("Nunito", "../fonts/nunito-v23-latin-600", 600);
+@include fontFace("Nunito", "../fonts/nunito-v23-latin-700", 700);
+@include fontFace("Nunito", "../fonts/nunito-v23-latin-800", 800);
+
+// Start typography settings
+body {
+  background-color: var(--color-background);
+  color: var(--color-paragraph);
+  font-family: var(--font-paragraph);
+  font-size: var(--font-size-default);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: var(--font-weight-paragraphs);
+  text-rendering: geometricPrecision;
+}
+
+// Defaults
+p,
+dd,
+dt,
+figcaption,
+hr,
+small,
+ol,
+ul,
+li,
+blockquote,
+kbd,
+pre,
+samp,
+code,
+th,
+td,
+table,
+tr,
+%default {
+  font-size: var(--font-size-paragraphs);
+  line-height: var(--line-height-paragraph);
+}
+
+p {
+  color: var(--color-paragraph);
+  letter-spacing: 0.04rem;
+}
+
+// Heading defaults
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-headings);
+  margin-bottom: var(--margin-between-paragraphs);
+  margin-top: var(--margin-between-paragraphs);
+  transition: color 0.6s;
+  color: var(--color-title);
+  margin: 2.75rem 0 0;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  line-height: var(--line-height-headings);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.05rem;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+b,
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+// Italic
+em,
+i {
+  font-style: italic;
+}
+
+// Default paragraphs
+p {
+  margin-bottom: var(--margin-between-paragraphs);
+  margin-top: var(--margin-between-paragraphs);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+// List stylings
+ol,
+ul {
+  -webkit-padding-start: 1em;
+  list-style-type: "• ";
+  padding-inline-start: 1em;
+  color: var(--color-paragraph);
+  margin-top: var(--margin-between-paragraphs);
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-top: calc(-1 * var(--margin-between-paragraphs) + 1rem);
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul li,
+ol li {
+  margin: 0.5rem;
+}
+
+ol li::marker {
+  color: var(--color-fade-text);
+}
+
+li::marker {
+  color: var(--color-fade-text);
+}
+
+li p {
+  margin-top: 0;
+}
+
+// Table stylings
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+  word-break: initial;
+}
+
+th {
+  backface-visibility: hidden;
+  background-color: var(--color-table-header);
+  color: var(--color-white);
+  font-weight: var(--font-weight-bold);
+  overflow: hidden;
+  text-align: left;
+}
+
+td {
+  color: var(--color-black);
+}
+
+td,
+th {
+  border: 0;
+  font-family: var(--font-paragraph);
+  font-size: var(--font-size-14);
+  height: 2rem;
+  padding: 0.6rem 1.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-background-table-cell-even);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--color-background-table-cell-odd);
+}
+
+thead,
+.wp-block-table thead {
+  border: 0;
+
+  th:first-child {
+    border-top-left-radius: 0.8rem;
+  }
+
+  th:last-child {
+    border-top-right-radius: 0.8rem;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+a:not(.button, .logo, .link, .j-poster-meta a, .j-meta a, nav a) {
+  color: var(--color-heading);
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-link);
+  &:hover {
+    transition: 600ms;
+    color: var(--color-fade-text);
+  }
+}

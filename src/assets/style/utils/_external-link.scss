@@ -1,0 +1,25 @@
+a.external-link::after, .ad span.external-link::after{
+    background-image: url(../svg/external-link.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    content: "";
+    display: inline-flex;
+    height: 16px;
+    margin-left: .2rem;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 16px;
+  }
+  
+  .mobileActive.nav-and-color-toggle, body[data-theme="dark"]{
+    a.external-link::after{
+      background-image: url(../svg/external-link-ghost.svg)
+    };
+  }
+  
+  .rage-text a.external-link::after, .ad span.external-link::after {
+    background-image: url(../svg/external-link-ghost.svg)
+  };
+  

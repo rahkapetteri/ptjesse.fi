@@ -1,0 +1,80 @@
+.btn-primary,
+.btn-secondary,
+.btn-primary-alt {
+  padding: 1.25rem 1.75rem;
+  background-color: var(--color-paragraph-background);
+  border-radius: 0.4rem;
+  border-bottom-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.6s;
+  text-decoration: none;
+  color: var(--color-white);
+  margin: 1rem auto;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-button-secondary-text);
+  border: 2px solid var(--color-title);
+  font-weight: 500;
+}
+
+.btn-primary-alt {
+  border-radius: 0;
+  background-color: inherit;
+  padding: 0.75rem 0;
+  display: inline-block;
+  color: var(--color-link);
+  margin: 0 auto var(--margin-between-paragraphs) auto;
+}
+
+.btn-primary-alt-line {
+  transition: 0.12s ease-in-out;
+  margin-top: 0.75rem;
+  border-bottom: 2px solid var(--color-link-border);
+  width: 77%;
+}
+
+.btn-primary::after {
+  background-image: url(../svg/chevron.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  content: "";
+  display: inline-flex;
+  height: 24px;
+  margin-left: 5px;
+  margin-right: 2px;
+  position: relative;
+  right: 0;
+  top: 0;
+  transition: 0.18s ease-in-out;
+  width: 24px;
+  transition: 200ms;
+}
+
+// Hovers
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+  color: var(--color-white);
+}
+
+.btn-secondary:hover {
+  background: var(--color-paragraph-background);
+  color: var(--color-white);
+}
+
+.btn-primary-alt:hover {
+    .btn-primary-alt-line {
+      width: 97%;
+    }
+  }

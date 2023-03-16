@@ -1,0 +1,118 @@
+// General mixins and helper classes
+@mixin hiddentext() {
+    display: block;
+    font-size: 0;
+    overflow: hidden;
+    text-align: start;
+    text-decoration: none;
+    text-indent: -9999px;
+  }
+  
+  .space-bottom {
+    margin-bottom: var(--space);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0 !important;
+  }
+  
+  // Text with background
+  .text-background,
+  .text-background-title {
+    background-color: var(--color-paragraph-background);
+    color: var(--color-primary);
+    box-shadow: 9px 0 0 var(--color-paragraph-background),
+      -9px 0 0 var(--color-paragraph-background);
+    position: relative;
+    left: 9px;
+    box-decoration-break: clone;
+    line-height: 1.75;
+  }
+  
+  .text-background-title {
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: $container-mobile) {
+    .text-background,
+    .text-background-title {
+      box-shadow: 7px 0 0 var(--color-paragraph-background),
+        -7px 0 0 var(--color-paragraph-background);
+      left: 7px;
+    }
+  }
+  
+  
+  // Cookie settings button for footer
+  .cookie-button {
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    color: var(--color-paragraph);
+  }
+  
+  .cookie-button:hover {
+    cursor: pointer;
+  }
+  
+  
+  // Line for comment headers
+  .headerline::before {
+    display: inline-block;
+    content: "";
+    border-top: 0.2rem solid var(--color-primary);
+    width: 2rem;
+    margin-right: 1rem;
+    transform: translateY(-0.5rem);
+  }
+  
+  .error-title {
+    text-align: center;
+  }
+  
+  // Post stuffs
+  .post {
+    &__header {
+      margin-top: var(--padding-container-vertical);
+      margin-bottom: var(--padding-container-vertical);
+    }
+  }
+  
+  .post-title {
+    padding: 0 0 var(--padding-container-vertical) 0;
+    text-align: center;
+  }
+  
+  
+  // blockquote for blog
+  .article-container {
+    blockquote {
+      border-left: 2px solid var(--color-quote-border);
+      line-height: var(--line-height-paragraph);
+      margin: 3.5rem 0;
+      padding: 3.5rem 6rem;
+      width: calc(100% - 12rem);
+  
+      p {
+        margin-top: 0;
+        color: var(--color-quote);
+      }
+    }
+  }
+  
+  @media screen and (max-width: $container-ipad) {
+    .article-container {
+      blockquote{
+        width: 100%;
+        padding: 1rem 3.5rem;
+      }
+    }
+  }
+  

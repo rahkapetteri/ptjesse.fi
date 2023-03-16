@@ -1,0 +1,109 @@
+// Color scheme
+// Light default theme
+body {
+    --color-primary: #faf14b;
+    --color-secondary: #facc15;
+    --color-paragraph-background: #2e2f35;
+    --color-title: #373f4e;
+    --color-paragraph: #44475d;
+    --color-reverse-text: #d1d5db;
+    --color-fade-text: #5f6a79;
+    --color-link: #18181b;
+    --color-link-border: var(--color-link);
+    --color-background: #fafafa;
+    --color-background-texture: #f1f5f9;
+    --color-background-notice: #f1f5f9;
+    --color-button-secondary-text: #2e2f35;
+    --color-white: #ffffff;
+    --color-dark: #18181b;
+    --color-menu-bg: var(--color-dark);
+    --color-menu: var(--color-white);
+    --border-color: rgba(0, 0, 0, 0.1);
+  
+    --color-mobile-active: #20222c;
+    --color-quote-border: var(--color-fade-text);
+    --color-quote: #44475d;
+    --color-background-table-cell-odd: var(--color-white);
+    --color-background-table-cell-even: #f3f3f3;
+    --color-table-header: var(--color-dark);
+  
+    // Cookie consent variables
+    --cc-bg: var(--color-background);
+    --cc-text: var(--color-paragraph);
+    --cc-btn-primary-bg: var(--color-dark);
+    --cc-btn-primary-text: var(--cc-bg);
+    --cc-btn-primary-hover-bg: var(--color-paragraph);
+    --cc-btn-secondary-bg: var(--color-background-texture);
+    --cc-btn-secondary-text: var(--color-button-secondary-text);
+    --cc-btn-secondary-hover-bg: var(--color-reverse-text);
+    --cc-toggle-bg-off: #919ea6;
+    --cc-toggle-bg-on: var(--cc-btn-primary-bg);
+    --cc-toggle-bg-readonly: #d5dee2;
+    --cc-toggle-knob-bg: #fff;
+    --cc-toggle-knob-icon-color: #ecf2fa;
+    --cc-block-text: var(--cc-text);
+    --cc-cookie-category-block-bg: #f0f4f7;
+    --cc-cookie-category-block-bg-hover: #e9eff4;
+    --cc-section-border: #f1f3f5;
+    --cc-cookie-table-border: #e9edf2;
+    --cc-overlay-bg: rgba(4, 6, 8, 0.85);
+    --cc-webkit-scrollbar-bg: #cfd5db;
+    --cc-webkit-scrollbar-bg-hover: #9199a0;
+  
+    --ghost-white: #fff;
+  }
+  
+  
+  // Override variables for Dark theme
+  body[data-theme="dark"] {
+    --color-primary: #faf14b;
+    --color-secondary: #facc15;
+    --color-paragraph-background: #2e2f35;
+    --color-title: #eaebed;
+    --color-paragraph: #d1d5db;
+    --color-reverse-text: #4a5568;
+    --color-fade-text: #a1a1aa;
+    --color-link: var(--color-white);
+    --color-link-border: var(--color-white);
+    --color-background: #1a1a1a;
+    --color-background-texture: #25262b;
+    --color-background-notice: #25262b;
+    --color-button-secondary-text: var(--color-paragraph);
+    --color-white: #ffffff;
+    --color-dark: #18181b;
+    --color-menu-bg: var(--color-dark);
+    --color-menu: var(--color-white);
+    --border-color: rgba(0, 0, 0, 0.1);
+  
+    --color-mobile-active: #252528;
+    --color-quote-border: var(--color-primary);
+    --color-quote: var(--color-white);
+    --color-background-table-cell-odd: var(--color-paragraph-background);
+    --color-background-table-cell-even: var(--color-background-texture);
+    --color-table-header: var(--color-background-texture);
+  
+    // Cookie consent variables
+    --cc-bg: #000;
+    --cc-text: var(--color-paragraph);
+    --cc-btn-primary-bg: var(--color-primary);
+    --cc-btn-primary-text: var(--cc-bg);
+    --cc-btn-primary-hover-bg: var(--color-primary);
+    --cc-btn-secondary-bg: var(--color-background-texture);
+    --cc-btn-secondary-text: var(--cc-text);
+    --cc-btn-secondary-hover-bg: #000;
+    --cc-toggle-bg-off: #667481;
+    --cc-toggle-bg-on: var(--cc-btn-primary-bg);
+    --cc-toggle-bg-readonly: #454c54;
+    --cc-toggle-knob-bg: var(--cc-cookie-category-block-bg);
+    --cc-toggle-knob-icon-color: var(--cc-bg);
+    --cc-block-text: #b3bfc5;
+    --cc-cookie-category-block-bg: #23272a;
+    --cc-cookie-category-block-bg-hover: #2b3035;
+    --cc-section-border: #292d31;
+    --cc-cookie-table-border: #2b3035;
+    --cc-webkit-scrollbar-bg: #667481;
+    --cc-webkit-scrollbar-bg-hover: #9199a0;
+  
+    --ghost-white: #fff;
+  }
+  

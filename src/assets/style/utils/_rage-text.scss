@@ -1,0 +1,30 @@
+// For blog when quote is not useful
+.rage-text{
+    background-color:#000;
+    color: #fff;
+    padding: 1.25em 2.375em;
+  
+    a{
+      border-color: #fff !important;
+    }
+  
+    a:hover{
+      color: #fff !important;
+    }
+  
+    ol, ul {
+      margin-bottom: 0;
+    }
+  
+    li{
+      color: #fff
+    }
+  
+    li::marker{
+      color: #fff;
+    }
+  }
+  
+  p.rage-text:last-child{
+    margin-bottom:var(--margin-between-paragraphs);
+  }

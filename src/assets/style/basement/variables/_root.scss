@@ -1,0 +1,150 @@
+// Variable base from: https://github.com/digitoimistodude/air-light
+
+// FIX SASS VARIABLES TO BE IMPORTED IN GRIDSOME BUILD TOO
+
+$width-wide: 1300px;
+$width-full: 100%;
+$width-max-mobile: 960px;
+$width-mobile: 600px;
+
+// Layout widths
+$width-max-layout: 100%;
+$width-max-article: 840px;
+$width-grid-base: 1300px;
+
+// Breakpoints for containers
+$container-desktop: 1200px;
+$container-ipad: 770px;
+$container-ipad-landscape: 1024px;
+$container-macbook-air: 1440px;
+$container-mobile: 480px;
+$container-article: 840px;
+$container-mini: 380px;
+
+:root {
+  // Heading font sizes
+  --font-size-hero: 45px;
+  --font-size-h1: 55px;
+  --font-size-h2: 44px;
+  --font-size-h3: 35px;
+  --font-size-h4: 28px;
+  --font-size-h5: 23px;
+  --font-size-h6: 18px;
+
+  // Paragraph font sizes
+  --font-size-14: 14px;
+  --font-size-15: 15px;
+  --font-size-16: 16px;
+  --font-size-17: 17px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-blockquote: 26px;
+
+  // Element font sizes
+  --font-size-default: var(--font-size-18);
+  --font-size-paragraphs: var(--font-size-18);
+  --font-size-nav-toggle-label: 15px;
+  --font-size-captions: 15px;
+
+  // Line-heights
+  --line-height-headings: 1.5;
+  --line-height-core-heading: 1.23;
+  --line-height-paragraph: 1.7;
+  --line-height-large: 1.7;
+
+  // Font weights
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-superbold: 800;
+  --font-weight-paragraphs: var(--font-weight-regular);
+  --font-weight-headings: var(--font-weight-superbold);
+
+  // Header size
+  --header-height: 140px;
+
+  // Helpers
+  --radius: 0.5rem;
+  --space: 1rem;
+
+  // Paddings
+  --padding-container-horizontal: 2rem;
+  --padding-container-horizontal-large: 6.4rem;
+  --padding-container-vertical: 6.4rem;
+  --padding-main-level-vertical-mobile: 1.2rem;
+  --padding-sub-menu-vertical-mobile: 1rem;
+  --padding-sub-menu-horizontal-mobile: 1.8rem;
+
+  // Margins
+  --margin-block-image: 4rem;
+  --margin-between-paragraphs: 2.7rem;
+
+  // Mid-sized screens
+  @media (max-width: $width-grid-base + 150px) {
+    --padding-container-horizontal: 6.4rem;
+  }
+
+  // When there's no longer room for container to fit with wider white space
+  @media (max-width: 700px) {
+    --padding-container-horizontal: 2rem;
+  }
+
+  @media (max-width: $container-ipad) {
+    --padding-container-vertical: 5rem;
+  }
+
+  // Vars in mobile
+  @media (max-width: $container-mobile) {
+    --padding-container-vertical: 4rem;
+  }
+
+  //Heading font sizes when menu triggers
+  @media (max-width: $container-macbook-air) {
+    --font-size-hero: 37px;
+    --font-size-h1: 37px;
+    --font-size-h2: 31px;
+    --font-size-h3: 26px;
+    --font-size-h4: 22px;
+    --font-size-h5: 18px;
+    --font-size-h6: 16px;
+    --font-size-default: var(--font-size-16);
+    --font-size-paragraphs: var(--font-size-16);
+  }
+
+  // Heading font sizes in mobile
+  @media (max-width: $container-mobile) {
+    --font-size-hero: 25px;
+    --font-size-h1: 25px;
+    --font-size-h2: 23px;
+    --font-size-h3: 22px;
+    --font-size-h4: 20px;
+    --font-size-h5: 29px;
+    --font-size-h6: 18px;
+    --header-height: 110px;
+  }
+
+  // Paragraph font sizes in tiny phones like iPhone 5S
+  @media (max-width: 420px) {
+    --font-size-paragraphs: 14px;
+  }
+
+  // Element font sizes in mobile
+  @media (max-width: $container-mobile) {
+    --font-size-paragraphs: 16px;
+    --font-size-default: 16px;
+    --font-size-blockquote: 20px;
+  }
+
+  // Element font sizes in tiny phones like iPhone 5S
+  @media (max-width: 420px) {
+    --font-size-nav-toggle-label: 14px;
+  }
+
+  // Font variables
+  --font-nunito: 'Nunito', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+  --font-paragraph: var(--font-nunito);
+  --font-heading: var(--font-nunito);
+}
