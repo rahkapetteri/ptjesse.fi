@@ -4,7 +4,7 @@
 			<div class="services__header">
 				<h2 class="text-background-title">Tarjoamani palvelut</h2>
 				<!-- <ThemeLine style="border-color: var(--color-secondary); margin: 1.5rem auto;" /> -->
-				<div class="services__link"><p>Tarjoan apuani aina henkilökohtaisesta valmennuksesta valmiisiin paketteihin.</p>
+				<div class="services__link"><p class="services__small_text">Tarjoan apuani aina henkilökohtaisesta valmennuksesta valmiisiin paketteihin.</p>
 				</div>
 			</div>
 
@@ -182,6 +182,11 @@ export default {
 
 	&__service_content {
 		flex: 1;
+	}
+
+	&__small_text{
+		font-size: var(--font-size-15);
+		color: var(--color-title);
 	}
 
 }

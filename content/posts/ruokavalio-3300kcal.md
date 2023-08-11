@@ -80,3 +80,11 @@ Kokonaiskalorit ja makrot tälle esimerkille:
 | kauramurot     | 90 g | 340 kcal | 12.6 g | 52.2 g | 6.4 g |
 | tonnikala öljyssä     | 140 g (1 purkki) | 248 kcal | 32.2 g | 0 g | 13.2 g |
 | avokado     | 25 g (n. 1/4 kpl) | 70 kcal | 0.9 g | 0.3 g | 6.9 g |
+
+
+### Ruokavaliot lihasmassan kasvatukseen
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/4000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 4000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3500-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 3500 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 3000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2500-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 2500 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 2000 kcal</a>

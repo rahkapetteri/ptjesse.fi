@@ -6,7 +6,6 @@
         <div class="header__left">
           <ToggleTheme class="hide-mobile-hamburger" />
           <Logo />
-
           <button aria-label="Avaa/sulje päävalikko" @click="toggleHamburger()" :class="{ 'is-active': mobileActive }"
             class="hamburger hamburger--spin hide-mobile-hamburger" type="button">
             <span class="hamburger-box hide-mobile-hamburger">
@@ -72,13 +71,12 @@
         <slot />
       </main>
       <footer>
-        <div class="footer">
-          <span class="footer__copyright">© Jesse Raitapuro {{ new Date().getFullYear() }}. </span>
-          <span class="footer__links"> Sivun treenannut kuntoon <a href="https://www.digiaargh.fi">Digiaargh</a></span>
-        </div>
-        <div class="footer footer__cookies">
-          <button class="cookie-button" type="button" aria-label="Avaa evästeasetukset"
-            data-cc="c-settings">Evästeasetukset</button>
+        <div class="footer container">
+          <div class="footer__element">
+            <span class="footer__copyright">© Jesse Raitapuro {{ new Date().getFullYear() }}. </span>
+            <span class="footer__links"> Sivun treenannut kuntoon <a href="https://www.digiaargh.fi">Digiaargh</a></span>
+          </div>
+          <div class="footer__element"><a href="https://verkkokauppa.ptjesse.fi/tietosuojaseloste">Tietosuojaseloste</a></div>
         </div>
       </footer>
     </div>
@@ -151,15 +149,17 @@ export default {
 
 <style lang="scss">
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: calc(var(--space) / 2);
-  text-align: center;
   font-size: 1.4rem;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 
   &__copyright{
     margin-right: .5rem;
+  }
+
+  &__element {
+    margin: 1rem 0;
   }
 
   &__cookies {

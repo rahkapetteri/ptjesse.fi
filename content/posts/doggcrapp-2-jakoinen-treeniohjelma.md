@@ -126,6 +126,13 @@ Proteiinin määräksi Doggcrapissa tavoitellaan peräti liki 4,5 grammaa per pa
 
 __Syö kuitenkin aina monipuolisesti ja terveellisesti.__
 
+### Ruokavaliot lihasmassan kasvatukseen
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/4000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 4000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3500-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 3500 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 3000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2500-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 2500 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 2000 kcal</a>
+
 ## Aerobinen harjoittelu
 
 Aerobista harjoittelua ei pidä unohtaa, vaikka tavoittena onkin lihasmassan kasvattaminen. Ohjelman kehittäjä suositteleekin 3-4 matalan intensiteetin aerobista harjoitusta viikottain lepopäivinä. Esimerkiksi matalasykkeinen kävelylenkki. Danten mielestä aerobinen harjoittelu on parasta suorittaa aamuisin ennen aamiaista, jolloin kehon glykogeeni varastot ovat alhaisimmillaan (keho käyttää rasvaa energian lähteenä glykogeenien sijaan).

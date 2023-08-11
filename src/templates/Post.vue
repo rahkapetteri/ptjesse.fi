@@ -166,10 +166,6 @@ p.header-notice {
   grid-gap: 6rem;
   grid-row-gap: 6rem;
   grid-template-columns: 3fr 1fr;
-
-  h1 {
-    font-size: calc( var(--font-size-h2) - 2px );
-  }
 }
 
 @media screen and (max-width: 960px) {

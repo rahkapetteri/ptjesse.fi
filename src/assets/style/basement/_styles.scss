@@ -226,6 +226,10 @@ img {
   max-width: 100%;
 }
 
+input, select {
+  color: var(--color-paragraph);
+}
+
 a:not(.button, .logo, .link, .j-poster-meta a, .j-meta a, nav a) {
   color: var(--color-heading);
   text-decoration: none;

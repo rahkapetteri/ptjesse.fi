@@ -60,10 +60,6 @@ export default {
   &:hover {
     opacity: .8
   }
-
-  &:focus {
-    outline: none;
-  }
 }
 
 .toggle-theme.hide-mobile-hamburger svg {

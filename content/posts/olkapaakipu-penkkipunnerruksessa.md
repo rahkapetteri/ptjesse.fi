@@ -1,5 +1,5 @@
 ---
-card_title: Olkapääkipu penkkipunnerruksessa – liikevalinnoilla, lämmittelyllä ja tekniikoilla treenit kuntoon 
+card_title:  Penkkipunnerruksen tekniikkavinkit sekä esimerkki penkkipunnerrusohjelmasta
 title: Olkapääkipu penkkipunnerruksessa – liikevalinnoilla, lämmittelyllä ja tekniikoilla treenit kuntoon
 date: 2023-01-27
 updated_at: 2023-01-27
@@ -149,5 +149,6 @@ Penkkipunnerruksen apuliikkeet tulee valita aina treenaajan heikkouksien mukaan,
 
 <p class="rage-text">Eri otevariaatiot voivat helpottaa olkapäiden kuormaa ja onkin olemassa myös erikoistankoja (kuten swiss bar), joilla voit punnertaa neutraalilla otteella. Myös penkkipunnerrus vastaotteella on kokeilemisen arvoinen asia.</p>
 
+Jos penkkipunnerrus aiheuttaa väliaikaista kipua, kokeile tässä tekstissä mainittujen vinkkien avulla uudestaan. Jos kipu on pitkäaikaista tai treeni ei lähde kulkemaan kivuttomasti näilläkään vinkeillä, niin silloin on syytä selvittää kivun syy ja hankkia osaavaa apua treeniohjelman suunnitteluun personal trainerilta tai fysioterapeutilta, etteivät treenit aiheuttaisi pidempiaikaisia kiputiloja ja sitä kautta taukoja harjoitteluun.
 
-Jos penkkipunnerrus aiheuttaa väliaikaista kipua, kokeile tässä tekstissä mainittujen vinkkien avulla uudestaan. Jos kipu on pitkäaikaista tai treeni ei lähde kulkemaan kivuttomasti näilläkään vinkeillä, niin silloin on syytä selvittää kivun syy ja hankkia osaavaa apua treeniohjelman suunnitteluun personal trainerilta tai fysioterapeutilta, etteivät treenit aiheuttaisi pidempiaikaisia kiputiloja ja sitä kautta taukoja harjoitteluun. 
+<a href="/penkkipunnerruslaskuri" class="rage-text ad">🤓 <span style="text-decoration:underline;">Arvioi penkkipunnerruksen maksimitulos kätevällä laskurilla.</span></a>

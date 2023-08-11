@@ -40,7 +40,7 @@ Ohjelman voi aloittaa kahdella tapaa:
 tai
 * aloita punnerrukset ja kyykky pelkällä tangolla, veto 40 kg ja soutu 30 kg painoilla (tarvittaessa voit aloittaa vedon ja soudunkin pelkällä tangolla).
 
-Nosta joka treenikerralla liikkeissä painoa 2,5 kg, poislukien maastavedossa, jossa lisätään painoa 5 kg per kerta 100kg asti. Alussa ohjelma vaikuttaa helpolta, mutta nopeasti huomaat kuormien kasvaessa kerta kerralta, että ohjelma ei ole enää kevyimmästä päästä.
+Nosta joka treenikerralla liikkeissä painoa 2,5 kg, poislukien maastavedossa, jossa lisätään painoa 5 kg per kerta 100 kg asti. Alussa ohjelma vaikuttaa helpolta, mutta nopeasti huomaat kuormien kasvaessa kerta kerralta, että ohjelma ei ole enää kevyimmästä päästä.
 
 ## Failure
 
@@ -74,11 +74,20 @@ Seuraavalla viikolla maanantaina olisi treeni A, keskiviikkona treeni B jne.
 
 <p class="rage-text">Muista syödä riittävästi kun suoritat ohjelmaa.</p>
 
-Seuraavista linkeistä löydät ideoita ruokailujen koostamiseen:
+### Ruokavaliot lihasmassan kasvatukseen
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/4000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 4000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3500-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 3500 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 3000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2500-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 2500 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2000-kcal-ruokavalio-lihasmassan-kasvatukseen/">Ruokavalio 2000 kcal</a>
 
-* <a href="https://www.ptjesse.fi/ravinto-ohjelma/">Ruokavalion suunnittelu</a>
-* <a href="https://www.ptjesse.fi/ruokavalio-3300kcal/">Ruokavalio 3300kcal</a>
-* <a href="https://www.ptjesse.fi/ruokavalio-1800kcal/">Ruokavalio 1800kcal</a>
+### Ruokavaliot dieetille
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3000-kcal-ruokavalio-dieetille/">Ruokavalio 3000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2700-kcal-ruokavalio-dieetille/">Ruokavalio 2700 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2400-kcal-ruokavalio-dieetille/">Ruokavalio 2400 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2100-kcal-ruokavalio-dieetille/">Ruokavalio 2100 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/1800-kcal-ruokavalio-dieetille/">Ruokavalio 1800 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/1500-kcal-ruokavalio-dieetille/">Ruokavalio 1500 kcal</a>
 
 
 ## Lähde

@@ -1,6 +1,7 @@
 // Import main css
 import '~/assets/style/index.scss'
 import config from '../gridsome.config'
+import VueFormulate from '@braid/vue-formulate'
 
 // Import default layout so we don't need to import it to every page
 import DefaultLayout from '~/layouts/Default.vue'
@@ -39,12 +40,8 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
-  // Client side rendered js (map not used anymore)
-  // if (isClient) {
-  //   Vue.component("l-map", () => import ('vue2-leaflet').then(m => m.LMap));
-  //   Vue.component("l-tile-layer", () => import ('vue2-leaflet').then(m => m.LTileLayer));
-  //   Vue.component("l-marker", () => import ('vue2-leaflet').then(m => m.LMarker));
-  // }
+  // Vue formulate register
+  Vue.use(VueFormulate)
 
   head.bodyAttrs = { class: 'custom-body-class' }
 }

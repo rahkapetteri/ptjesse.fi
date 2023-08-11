@@ -67,3 +67,13 @@ Kokonaiskalorit ja makrot tälle esimerkille:
 | Corn flakes -murot     | 50 g | 189 kcal | 3.5 g | 42 g | 0.5 g |
 | kultakalkkuna     | 75 g | 83 kcal | 15.8 g | 0.8 g | 1.5 g |
 | avokado     | 50 g (n. puolikas) | 140 kcal | 1.8 g | 0.6 g | 13.8 g |
+
+
+
+## Ruokavaliot dieetille
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/3000-kcal-ruokavalio-dieetille/">Ruokavalio 3000 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2700-kcal-ruokavalio-dieetille/">Ruokavalio 2700 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2400-kcal-ruokavalio-dieetille/">Ruokavalio 2400 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/2100-kcal-ruokavalio-dieetille/">Ruokavalio 2100 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/1800-kcal-ruokavalio-dieetille/">Ruokavalio 1800 kcal</a>
+* <a class="external-link" href="https://verkkokauppa.ptjesse.fi/kauppa/1500-kcal-ruokavalio-dieetille/">Ruokavalio 1500 kcal</a>

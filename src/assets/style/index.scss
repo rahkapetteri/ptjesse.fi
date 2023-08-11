@@ -6,6 +6,7 @@
 @import 'basement/styles';
 @import 'basement/menu';
 @import 'basement/container';
+@import 'basement/accessibility';
 
 // Element stylings
 @import 'elements/buttons';
@@ -14,7 +15,7 @@
 @import 'hamburgers/style';
 
 // Cookie banner styles
-@import 'cookie-banner/styles';
+// @import 'cookie-banner/styles';
 
 // Utilities
 @import 'utils/general';
@@ -24,4 +25,6 @@
 @import 'utils/rage-text';
 @import 'utils/ad';
 
+// Form styles
+@import '../../../node_modules/@braid/vue-formulate/themes/snow/snow.scss';
 
