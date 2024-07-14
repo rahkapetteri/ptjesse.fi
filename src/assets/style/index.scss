@@ -4,7 +4,7 @@
 @import 'basement/variables/root';
 @import 'basement/variables/palette';
 @import 'basement/styles';
-@import 'basement/menu';
+// @import 'basement/menu';
 @import 'basement/container';
 @import 'basement/accessibility';
 
@@ -12,18 +12,18 @@
 @import 'elements/buttons';
 
 // Hamburger menu options
-@import 'hamburgers/style';
+// @import 'hamburgers/style';
 
 // Cookie banner styles
 // @import 'cookie-banner/styles';
 
 // Utilities
 @import 'utils/general';
-@import 'utils/columns';
+// @import 'utils/columns';
 @import 'utils/content-box';
-@import 'utils/external-link';
-@import 'utils/rage-text';
-@import 'utils/ad';
+// @import 'utils/external-link';
+// @import 'utils/rage-text';
+// @import 'utils/ad';
 
 // Form styles
 @import '../../../node_modules/@braid/vue-formulate/themes/snow/snow.scss';
