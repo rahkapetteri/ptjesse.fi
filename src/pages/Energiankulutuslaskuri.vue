@@ -1,9 +1,6 @@
 <template>
   <Layout :show-logo="false">
     <div class="container">
-      <p>
-      Laske helposti suuntaa antava energian tarpeesi alla olevalla laskurilla. Laskuri pohjautuu Harris-Benedictin-kaavaan ja kulutuskertoimiin, joka kertoo kuinka paljon kaloreita tarvitset päivässä tavoitteesi mukaan.</p>
-      <p class="text-sm">Lisää vähintään pituus, paino ja ikä.</p>
       <Calculator />
     </div>
   </Layout>
