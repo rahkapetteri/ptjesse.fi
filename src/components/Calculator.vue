@@ -37,6 +37,7 @@
                     <p v-else>Energian tarpeesi on noin <span class="kcal">0</span> kcal päivässä.</p>
                 </div>
             </div>
+					<a class="text-xs link-mod" href="https://ptjesse.fi">Ptjesse.fi</a>
         </div>
 </template>
 

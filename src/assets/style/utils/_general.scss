@@ -65,6 +65,18 @@
   .text-sm {
     font-size: var(--font-size-14);
   }
+
+	.text-xs {
+		font-size: 13px;
+	}
+
+	.link-mod {
+		text-decoration: none;
+		border-bottom: 0 !important;
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
   
   
   // Cookie settings button for footer
