@@ -7,7 +7,7 @@
 			<FormulateInput v-model="weight" type="number" label="Paino" help="Paino kg" min="0" max="1500"
 				error-behavior="live" validation="number|between:-1,1500" />
 			<div>
-				<p v-if="this.weight != 0 && this.length != 0">Painoindeksi on noin <span class="kcal">{{ currentBmi }}</span>,
+				<p v-if="this.weight != 0 && this.length != 0 && this.length < 1500 && this.length > 0 && this.weight < 1500 && this.weight > 0">Painoindeksi on noin <span class="kcal">{{ currentBmi }}</span>,
 					{{ currentBmiText }}</p>
 				<p v-else>Painoindeksi on noin <span class="kcal">0</span></p>
 			</div>
@@ -57,9 +57,9 @@ export default {
 				return 'mikä tarkoittaa reilua ylipainoa, tai olet kehonrakentaja.';
 			}
 			if (bmi >= 35.0 && bmi <= 39.9) {
-				return 'mikä tarkoittaa vaikeaa lihavuutta, tai olet raskaansarjan kehonrakentaja.';
+				return 'mikä tarkoittaa vaikeaa lihavuutta, tai olet raskaan sarjan kehonrakentaja.';
 			}
-			return 'mikä tarkoittaa sairaalloista lihavuutta.';
+			return 'mikä tarkoittaa sairaalloista lihavuutta, tai olet superraskaan sarjan kehonrakentaja. Ehkäpä tuleva Ronnie Coleman?';
 		}
 	},
 }
