@@ -1,13 +1,18 @@
 <template>
 	<div class="template">
 		<div class="calculator">
+			<FormulateInput v-model="priority"
+				:options="{ uusibmi: 'Uusi bmi-kaava (Trefethen)', vanhabmi: 'Perinteinen bmi-kaava' }"
+				type="radio" label="Laskentakaava" />
 			<FormulateInput v-model="length" type="number" label="Pituus" help="Pituus cm" min="0" max="1500"
 				error-behavior="live" validation="number|between:-1,1500" />
 
 			<FormulateInput v-model="weight" type="number" label="Paino" help="Paino kg" min="0" max="1500"
 				error-behavior="live" validation="number|between:-1,1500" />
 			<div>
-				<p v-if="this.weight != 0 && this.length != 0 && this.length < 1500 && this.length > 0 && this.weight < 1500 && this.weight > 0">Painoindeksi on noin <span class="kcal">{{ currentBmi }}</span>,
+				<p
+					v-if="this.weight != 0 && this.length != 0 && this.length < 1500 && this.length > 0 && this.weight < 1500 && this.weight > 0">
+					Painoindeksi on noin <span class="kcal">{{ currentBmi }}</span>,
 					{{ currentBmiText }}</p>
 				<p v-else>Painoindeksi on noin <span class="kcal">0</span></p>
 			</div>
@@ -25,14 +30,21 @@ export default {
 			weight: 0,
 			length: 0,
 			calculatedBmi: 0,
+			priority: 'uusibmi'
 		}
 	},
 
 	computed: {
 
 		currentBmi: function () {
-			if (this.weight && this.length) {
+			if (this.weight && this.length && this.priority === 'vanhabmi') {
 				this.calculatedBmi = Math.round((this.weight / ((this.length / 100) * (this.length / 100))) * 10) / 10;
+				return this.calculatedBmi;
+			}
+
+			else if (this.weight && this.length && this.priority === 'uusibmi') {
+				let pituusM = this.length / 100;
+				this.calculatedBmi = Math.round((1.3 * this.weight / Math.pow(pituusM, 2.5)) * 10) / 10;
 				return this.calculatedBmi;
 			}
 
